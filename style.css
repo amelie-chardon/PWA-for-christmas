@@ -1,0 +1,25 @@
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+	grid-gap: 0.5em;
+    
+}
+
+.card{
+	height: max-content;
+}
+
+main {
+    padding:45px;
+    background-color: #b42a2a;
+}
+
+header {
+    
+    background-color: #127419;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+}
